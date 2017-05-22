@@ -1,0 +1,4 @@
+@                   1200 IN TXT     "v=spf1 a mx include:_spf.kiiiosk.ru include:servers.mcsv.net include:smtp.userecho.com include:_spf.yandex.net ~all"
+_spf                1200 IN TXT     "v=spf1 include:_spf-ipv4.kiiiosk.ru include:_spf-ipv6.kiiiosk.ru ~all"
+_spf-ipv4           1200 IN TXT     "v=spf1 ip4:148.251.195.107 ip4:148.251.195.87 ip4:136.243.25.71 ip4:136.243.75.105 ~all"
+_spf-ipv6           1200 IN TXT     "v=spf1 ip6:2a01:4f8:211:18d6::2 ip6:2a01:4f8:211:18e8::2 ip6:2a01:4f8:212:295d::2 ip6:2607:f8b0:4001:c0b::2 ~all"
